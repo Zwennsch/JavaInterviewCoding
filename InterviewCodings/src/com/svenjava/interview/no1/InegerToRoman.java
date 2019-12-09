@@ -42,7 +42,7 @@ public class InegerToRoman {
 				for(int j = 0; j < n; j++) {
 					rom.append(RomanNunbers.values()[i]);
 				}
-			}else {
+			}else{
 				rom.append(RomanNunbers.values()[i].toString() + RomanNunbers.values()[i-1]);
 			}
 			number2 = rest;
